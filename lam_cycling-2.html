@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#101010">
+<meta name="description" content="LAM Cycling: noticias, carreras, tecnología y comunidad de ciclismo.">
+<title>LAM Cycling | Ride Beyond Limits</title>
+<style>
+:root{--bg:#101010;--panel:#191919;--muted:#a9a9a9;--white:#f6f6f6;--lime:#d7ff38;--line:#303030}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--white);font-family:Arial,Helvetica,sans-serif;line-height:1.5}
+a{color:inherit;text-decoration:none}.wrap{max-width:1160px;margin:auto;padding:0 22px}
+header{position:sticky;top:0;z-index:5;background:rgba(16,16,16,.96);border-bottom:1px solid var(--line);backdrop-filter:blur(10px)}
+.nav{min-height:72px;display:flex;align-items:center;justify-content:space-between;gap:18px}
+.brand{font-weight:950;letter-spacing:-2px;font-size:27px}.brand span{display:block;font-size:9px;letter-spacing:4px;color:var(--lime);margin-top:-7px}
+nav{display:flex;gap:20px;flex-wrap:wrap;font-size:13px;color:#ddd}nav a:hover{color:var(--lime)}
+.hero{padding:70px 0 48px;background:linear-gradient(110deg,#171717 0%,#101010 60%,#20251a 100%);border-bottom:1px solid var(--line)}
+.kicker{color:var(--lime);font-size:11px;font-weight:bold;letter-spacing:3px;text-transform:uppercase}
+h1{font-size:clamp(48px,9vw,104px);line-height:.88;letter-spacing:-6px;margin:18px 0 22px;font-weight:950}
+h1 em{font-style:normal;color:var(--lime)}.hero p{max-width:570px;color:#c4c4c4;font-size:17px}
+.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.btn{display:inline-block;padding:13px 18px;background:var(--lime);color:#101010;font-weight:800;border-radius:3px;font-size:12px;letter-spacing:.6px}.btn.secondary{background:transparent;color:white;border:1px solid #555}
+section{padding:48px 0;border-bottom:1px solid var(--line)}.section-head{display:flex;align-items:end;justify-content:space-between;gap:16px;margin-bottom:22px}
+h2{font-size:28px;letter-spacing:-1px;margin:0}.sub{color:var(--muted);font-size:13px;margin:5px 0 0}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.card{background:var(--panel);border:1px solid var(--line);border-radius:5px;overflow:hidden}
+.visual{height:150px;background:linear-gradient(135deg,#333,#171717);display:flex;align-items:center;justify-content:center;font-size:48px;color:var(--lime)}
+.cardbody{padding:17px}.tag{font-size:10px;color:var(--lime);font-weight:bold;letter-spacing:1.5px;text-transform:uppercase}.card h3{margin:8px 0;font-size:19px;line-height:1.15}.card p{margin:0;color:#aaa;font-size:13px}
+.two{display:grid;grid-template-columns:1.1fr .9fr;gap:18px}.feature{background:#1b1b1b;border:1px solid var(--line);padding:24px;border-radius:5px}.feature h3{font-size:24px;margin:8px 0}.feature p{color:#b8b8b8}
+.list{list-style:none;padding:0;margin:0}.list li{padding:13px 0;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:12px;font-size:14px}.list small{color:var(--muted)}
+.notice{padding:17px;border:1px solid #596b21;background:#1c2112;color:#dce9b8;border-radius:4px;font-size:13px}
+footer{padding:30px 0;color:#888;font-size:12px}.foot{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
+@media(max-width:760px){.nav{align-items:flex-start;padding:14px 0;flex-direction:column}nav{gap:12px}.grid{grid-template-columns:1fr}.two{grid-template-columns:1fr}.hero{padding:52px 0 38px}h1{letter-spacing:-3px}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+<a class="brand" href="#inicio" aria-label="LAM Cycling inicio">LAM<span>CYCLING</span></a>
+<nav aria-label="Navegación principal">
+<a href="#noticias">NOTICIAS</a><a href="#carreras">CARRERAS</a><a href="#riders">RIDERS</a><a href="#tecnologia">TECNOLOGÍA</a><a href="#comunidad">COMUNIDAD</a>
+</nav></div></header>
+<main>
+<section class="hero" id="inicio"><div class="wrap">
+<div class="kicker">Ciclismo · Competición · Cultura</div>
+<h1>RIDE<br><em>BEYOND</em><br>LIMITS.</h1>
+<p>Historias, carreras, tecnología y pasión por el ciclismo. Una comunidad para quienes siempre quieren ir un poco más allá.</p>
+<div class="actions"><a class="btn" href="#noticias">EXPLORAR LAM</a><a class="btn secondary" href="#comunidad">CONOCER LA COMUNIDAD</a></div>
+</div></section>
+<section id="noticias"><div class="wrap">
+<div class="section-head"><div><div class="kicker">Lo que pasa en el pelotón</div><h2>Últimas noticias</h2><p class="sub">Sección de ejemplo: agregá noticias verificadas antes de publicar.</p></div></div>
+<div class="grid">
+<article class="card"><div class="visual" aria-hidden="true">🏁</div><div class="cardbody"><div class="tag">Competición</div><h3>La emoción de las grandes vueltas</h3><p>Etapas, estrategias y momentos que definen una carrera.</p></div></article>
+<article class="card"><div class="visual" aria-hidden="true">🚴</div><div class="cardbody"><div class="tag">Riders</div><h3>Historias de ciclistas</h3><p>Conocé distintas trayectorias, equipos y estilos de carrera.</p></div></article>
+<article class="card"><div class="visual" aria-hidden="true">⚙️</div><div class="cardbody"><div class="tag">Tecnología</div><h3>La evolución de las bicicletas</h3><p>Aerodinámica, materiales y avances explicados de forma sencilla.</p></div></article>
+</div></div></section>
+<section id="carreras"><div class="wrap two">
+<div class="feature"><div class="kicker">Race center</div><h3>El ciclismo se vive en cada etapa.</h3><p>Seguí las grandes competiciones, descubrí sus recorridos y aprendé cómo funcionan las estrategias del pelotón.</p><a class="btn" href="#comunidad">IR A COMUNIDAD</a></div>
+<div class="feature"><div class="kicker">Calendario</div><ul class="list">
+<li><span>Tour de France</span><small>Gran vuelta</small></li>
+<li><span>Giro d'Italia</span><small>Gran vuelta</small></li>
+<li><span>La Vuelta</span><small>Gran vuelta</small></li>
+<li><span>Clásicas de primavera</span><small>Un día</small></li>
+</ul><p class="sub">Calendario orientativo. Consultá fechas oficiales de cada organización.</p></div>
+</div></section>
+<section id="riders"><div class="wrap"><div class="section-head"><div><div class="kicker">Personas que inspiran</div><h2>Riders</h2><p class="sub">Perfiles, entrevistas y análisis deportivos.</p></div></div>
+<div class="grid">
+<div class="card"><div class="visual">🏆</div><div class="cardbody"><div class="tag">Perfil de ciclista</div><h3>Campeones y talentos</h3><p>Trayectorias, logros y estilos de competición.</p></div></div>
+<div class="card"><div class="visual">⛰️</div><div class="cardbody"><div class="tag">Entrenamiento</div><h3>Detrás del rendimiento</h3><p>Preparación, trabajo en equipo y constancia.</p></div></div>
+<div class="card"><div class="visual">🎙️</div><div class="cardbody"><div class="tag">Entrevistas</div><h3>Voces del ciclismo</h3><p>Experiencias y aprendizajes de la comunidad ciclista.</p></div></div>
+</div></div></section>
+<section id="tecnologia"><div class="wrap two">
+<div><div class="kicker">Innovation lab</div><h2>Bikes & tecnología</h2><p class="sub">Explicaciones sobre cuadros, transmisiones, ruedas, cascos, sensores y aerodinámica.</p></div>
+<div class="notice"><strong>Contenido responsable</strong><br>Las recomendaciones técnicas deben basarse en fuentes confiables. Para ajustes mecánicos o de seguridad, consultá a un adulto responsable o mecánico calificado.</div>
+</div></section>
+<section id="comunidad"><div class="wrap two">
+<div><div class="kicker">LAM Community</div><h2>Una comunidad que comparte la pasión.</h2><p class="sub">En esta primera versión, la comunidad es informativa: no hay cuentas, chat, comentarios ni publicaciones públicas.</p></div>
+<div class="feature"><h3>Participá con seguridad</h3><ul class="list">
+<li><span>Respetá a todos</span><small>Siempre</small></li>
+<li><span>No compartas datos personales</span><small>Importante</small></li>
+<li><span>No publiques ubicación o rutinas</span><small>Privacidad</small></li>
+<li><span>Verificá la información</span><small>Fuentes</small></li>
+</ul></div>
+</div></section>
+</main>
+<footer><div class="wrap foot"><div><strong style="color:#fff">LAM CYCLING</strong><br>Ride Beyond Limits.</div><div>Proyecto independiente de contenido ciclista. No afiliado a Red Bull ni a equipos profesionales.</div><div>© 2026 LAM Cycling · Sitio de demostración</div></div></footer>
+</body></html>
